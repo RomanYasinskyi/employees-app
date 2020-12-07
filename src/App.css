@@ -1,0 +1,34 @@
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.containerEmployees{
+  width: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-right: 1px solid black;
+}
+.blockEmployees h1{
+  text-align: center;
+}
+
+.boxEmployees{
+  width: 220px;
+  border: 1px solid black;
+  margin: 5px 5px;
+}
+.boxEmployees h3{
+  margin-left: 40px;
+}
+.boxEmployees li{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+.boxBirthday{
+  border-top: 1px solid black;
+  margin-left: 5px;
+}
